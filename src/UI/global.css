@@ -1,0 +1,11 @@
+/* basic reset */
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+/* Tailwind import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
