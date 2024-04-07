@@ -6,6 +6,7 @@
 .pnp.js
 .yarn/install-state.gz
 /server/node_modules
+/server/dist
 /server/.pnp
 /server/.pnp.js
 /server/.yarn/install-state.gz
@@ -36,8 +37,8 @@ yarn-error.log*
 /server/yarn-error.log*
 
 # local env files
-.env*.local
-/server/.env*.local
+# .env*.local UNCOMMENT THIS
+# /server/.env UNCOMMENT THIS
 
 # vercel
 .vercel

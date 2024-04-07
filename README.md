@@ -12,3 +12,5 @@ This template features:
 
 - Simple and clean folder structure
 - Example files with descriptions
+
+## Environment variables and it's files are NOT in .gitignore! Please add them after you fork
