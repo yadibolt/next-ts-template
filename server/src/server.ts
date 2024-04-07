@@ -11,6 +11,6 @@ app.get("/", (req: Request, res: Response) => {
   res.send("👍");
 });
 
-app.listen(port, "localhost", () => {
+app.listen(port, () => {
   console.log(`[API/CDN SERVER] Running "${app_name}" on port ${port}`);
 });
