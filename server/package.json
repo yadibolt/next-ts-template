@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "API and dynamic hosting of files.",
-  "main": "app.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon",
     "start": "npm run build && node dist/server.js",
