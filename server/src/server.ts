@@ -8,9 +8,9 @@ if (!process.env.APP_NAME) process.exit(1);
 const app_name = process.env.APP_NAME;
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("👍");
+  res.send({ result: "👍" });
 });
 
 app.listen(port, () => {
-  console.log(`[API/CDN SERVER] Running "${app_name}" on port ${port}`);
+  console.log(`|API/CDN SERVER| Running "${app_name}" on port ${port}`);
 });
