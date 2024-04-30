@@ -5,7 +5,7 @@ import { Metadata } from "next";
 // page.tsx
 export const getMetadataIndex = (): Metadata => {
   return {
-    title: "My App",
+    title: "My App Title",
     description: "App created with template.",
   };
 };
